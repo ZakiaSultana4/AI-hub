@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>AI hub</title>
+</head>
+<body class="relative">
+    <section class="max-w-screen-2xl mx-auto flex flex-col justify-center items-center" id="section">
+        <h1 class="text-center text-2xl font-bold mt-10">AI Universe Hub</h1>
+        <button class="btn btn-primary my-6" onclick="sortByDate()">Sort by Date</button>
+        <div class="grid grid-cols-3 gap-4 w-full" id="container">
+          
+        </div>
+        <div id="modaldiv" class="hidden relative">
+
+        </div>
+        <!-- <div id="modal" class="flex justify-center items-center gap-2 w-[700px] h-[500px] rounded-lg fixed top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] bg-slate-400 ">
+          <div class="px-6 py-4 flex flex-col justify-center items-center w-[350px] h-[400px] bg-red-100 rounded-md border-red-400 border-[1px]">
+           <h1 class="text-lg font-bold mb-4">ChatGPT is an AI-powered chatbot platform that uses OpenAI's GPT technology to simulate human conversation.</h1>
+           <div class="flex justify-center items-center gap-2">
+            <div class="w-[100px] h-[80px] rounded-md bg-white flex justify-center items-center">
+             <p class="text-green-500 font-bold">$10/ <br>month <br>
+               <span class="text-center">Basic</span> </p>
+            </div>
+            <div class="w-[100px] h-[80px] rounded-md bg-white flex justify-center items-center">
+                <p class="text-green-500 font-bold">$10/ <br>month <br>
+                  <span class="text-center">Basic</span> </p>
+               </div>
+               <div class="w-[100px] h-[80px] rounded-md bg-white flex justify-center items-center">
+                <p class="text-green-500 font-bold">$10/ <br>month <br>
+                  <span class="text-center">Basic</span> </p>
+               </div>
+
+           </div>
+           <div class="flex gap-2 items-center justify-center mt-4">
+            <div class="flex flex-col justify-center items-start ">
+            
+                <h1 class="font-semibold">Features</h1>
+                <ul class="list-disc text-[12px] pl-2">
+                    <li>Customizable responses</li>
+                    <li>Multilingual support</li>
+                    <li>Seamless integration</li>
+                </ul>
+               </div>
+               <div class="flex flex-col justify-center items-start pl-2">
+            
+                <h1 class="font-semibold">Integrations</h1>
+                <ul class="list-disc text-[12px] pl-2">
+                    <li>Customizable responses</li>
+                    <li>Multilingual support</li>
+                    <li>Seamless integration</li>
+                </ul>
+               </div>
+           </div>
+           
+          </div>
+          <div class="w-[300px] h-[400px] bg-white rounded-md p-4 text-center">
+           <img src="https://img.olhardigital.com.br/wp-content/uploads/2023/01/chatgpt_assistente.jpg" class="rounded-lg" alt="">
+           <h1 class="text-base font-bold mt-10 mb-4">Hi, how are you doing today?</h1>
+           <p class="text-[12px]">I'm doing well, thank you for asking. How can I assist you today?</p>
+          </div>
+        </div> -->
+        
+        <button class="btn btn-primary hidden" onclick="showall()" id="showbtn">Show more</button>
+    </section>
+    <script src="file.js"></script>
+</body>
+</html>
